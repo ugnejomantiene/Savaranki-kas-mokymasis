@@ -1,0 +1,24 @@
+#s {
+    display: flex;
+}
+.d {
+    padding: 50px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(220, 148, 160);
+    background-color: antiquewhite;
+    margin: 20px;
+    text-align: center;
+
+}
+button {
+    width: 100%;
+    height: 100%;
+
+}
+.pasleptas_tekstas {
+    display: none;
+}
+.pasleptas_tekstas.mygtukas {
+    display: block;
+}
