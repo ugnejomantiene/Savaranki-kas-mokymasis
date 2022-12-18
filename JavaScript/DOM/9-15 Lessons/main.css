@@ -22,3 +22,12 @@ button {
 .pasleptas_tekstas.mygtukas {
     display: block;
 }
+
+
+.text {
+    display: none;
+}
+
+.color {
+    color: red;
+}

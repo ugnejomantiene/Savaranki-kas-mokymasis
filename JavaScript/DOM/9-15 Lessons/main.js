@@ -35,3 +35,18 @@ treciasPelytesUzejimas.addEventListener('mouseover', treciasPelytesUzejimasFunkc
 //_____________________________________________________________
 // 10. Elementų paslėpimo/parodymo mygtukas
 
+let btn = document.getElementById('myBtn'); // pasakome, kad mygtukas su ID #myBtn bus vadinamas kintamuoju btn.
+btn.addEventListener('click', function(){ // parašome įvykį mygtukui. Pasakome, kad kažkas vykst atlikus click veiksmą
+    let text = document.getElementById('myDiv'); // įvardijame, kurį elementą faile norėsime keisti
+    if (text.style.display === 'none'){ // rašome sąlygą, kuri sako: jeigu mūsų keičiamojo elemento display yra none, tada
+        text.style.display = 'block'; //pakeičiame ją į block.
+    } else { // jeigu ne:
+        text.style.display = 'none'; // tada paspaudus elemento display bus none.
+    }
+});
+
+// Elementų atributų ir klasių modifikavimas 
+
+let h2toChange = document.querySelector('h2'); // Pasakome, kad mūsų norimas pakeisti objektas yra h2, ir mes jį vadinsime h2toChange
+h2toChange.innerText = 'Hello again'; // nurodome kur, kokio tipo ir kokį tekstą norime įvesti
+h2toChange.style.backgroundColor = 'blue'; // papildomas nustatymas, pakeista spalva fonui.
